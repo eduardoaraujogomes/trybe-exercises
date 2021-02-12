@@ -1,40 +1,32 @@
 .super-mario {
-    width: 300px;    
-      
+    width: 300px;      
 }
-
 .goomba {
     display: block;
     width: 300px;
 }
-
 .word {
     font-size: 30px;
     position: absolute;
     z-index: 1;
     left: 53%;
-    margin-top: 70px;
-    
+    margin-top: 70px;    
 }
 .baloon {
     width: 400px;
     position: absolute;
     z-index: 0;
-
 }
-
 .bowser {
     margin-left: 300px;
     position: absolute;
     z-index: -1;
 }
-
 .mario-goomba {
     display: inline;
     width: 50%;
     float: left;
 }
-
 .baloon-bowser {
     display: inline;
     float: left;
