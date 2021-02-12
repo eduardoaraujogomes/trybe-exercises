@@ -1,33 +1,17 @@
-.super-mario {
-    width: 300px;      
+h1, p {
+    text-align: center;
 }
-.goomba {
-    display: block;
-    width: 300px;
+
+ol li:hover {
+    background-color: rgb(107, 172, 107);
 }
-.word {
-    font-size: 30px;
-    position: absolute;
-    z-index: 1;
-    left: 53%;
-    margin-top: 70px;    
+ol li:active {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.baloon {
-    width: 400px;
-    position: absolute;
-    z-index: 0;
+
+ol, ul {
+    list-style: none;
 }
-.bowser {
-    margin-left: 300px;
-    position: absolute;
-    z-index: -1;
-}
-.mario-goomba {
-    display: inline;
-    width: 50%;
-    float: left;
-}
-.baloon-bowser {
-    display: inline;
-    float: left;
-}
+
+
