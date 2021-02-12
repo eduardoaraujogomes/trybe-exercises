@@ -1,17 +1,62 @@
-h1, p {
-    text-align: center;
+div:hover {
+    border: 2px solid black;
+    transition: 2s;
 }
 
-ol li:hover {
-    background-color: rgb(107, 172, 107);
+div:first-of-type {
+    background-color: #A87222;
 }
-ol li:active {
+div:nth-of-type(2) {
+    background-color: #FFC266;
+}
+div:nth-of-type(3) {
+    background-color: #49ABF5;
+}
+
+div:nth-of-type(4) {
+    background-color: #1167A8;
+}
+
+div:last-of-type {
+    background-color: pink;
+}
+
+div:first-of-type > h3 {
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-ol, ul {
-    list-style: none;
+div:nth-of-type(2) > h3{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div:nth-of-type(3) > h3{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div:nth-of-type(4) > h3{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div:last-of-type > h3{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+div:nth-of-type(odd) {
+    font-style: italic;
 }
 
 
