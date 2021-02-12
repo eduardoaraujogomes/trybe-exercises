@@ -7,3 +7,24 @@
     display: block;
     width: 300px;
 }
+
+p {
+    font-size: 30px;
+    position: absolute;
+    z-index: 1;
+    left: 50px;
+    margin-top: 70px;
+    
+}
+.baloon {
+    width: 400px;
+    position: absolute;
+    z-index: 0;
+
+}
+
+.bowser {
+    margin-left: 300px;
+    position: absolute;
+    z-index: -1;
+}
