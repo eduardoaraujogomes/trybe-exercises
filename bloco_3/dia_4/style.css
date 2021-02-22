@@ -1,0 +1,28 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;    
+} 
+
+.container {
+    width: 70%;
+    min-height: 400px;
+}
+
+.scientific-name {
+    background-image: url(https://pm1.narvii.com/6502/0872de236946b41075bb4e8013a692a1de60251f_hq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: cyan;
+}
+main {
+    display: inline-block;
+}
+
+aside {
+    float: right;
+}
+
+footer {
+    text-align: center;
+}
